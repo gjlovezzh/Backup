@@ -8,10 +8,10 @@ on:
     branches:
       - main
     paths:
-      - ".github/workflows/blank.yml"
+      - ".github/workflows/sync-monkcoder_dust.yml"
 jobs:
   update:
-    if: github.repository == 'kddhi/akd'
+    if: github.repository == 'gjlovezzh/jd_scripts'
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:        
