@@ -28,6 +28,6 @@ jobs:
         if: env.PAT
         with:
           type: now
-          from_branch: lxk0301-master
-          target_branch: ooo
+          from_branch: master
+          target_branch: action
           github_token: ${{ secrets.PAT }}
