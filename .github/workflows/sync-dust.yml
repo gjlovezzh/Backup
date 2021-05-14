@@ -35,7 +35,7 @@ jobs:
         with:
           source_repo: "https://github.com/VidocqH/jd_scripts.git"
           source_branch: "master"
-          destination_branch: "master"
+          destination_branch: "action"
           github_token: ${{ github.event.client_payload.PAT || secrets.PAT }}    
           
           
