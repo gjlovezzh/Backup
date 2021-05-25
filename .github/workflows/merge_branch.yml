@@ -29,5 +29,5 @@ jobs:
         with:
           type: now
           from_branch: master
-          target_branch: actionn
+          target_branch: action
           github_token: ${{ secrets.PAT }}
